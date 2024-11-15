@@ -1,0 +1,86 @@
+### Tech Stack & Architecture
+- Next.js 14+ with React 18 Server Components
+- TypeScript for type safety and better developer experience
+- LangChain & Ollama AI for local LLM integration
+- Zustand for state management
+- Zod for schema validation
+- Tailwind CSS with shadcn/ui components
+- Markdown processing with react-markdown and remark-gfm
+
+### Code Style and Structure
+- Write type-safe TypeScript code with proper interfaces/types
+- Use functional components and hooks
+- Follow React Server Components patterns
+- Structure directories using feature-based organization:
+  - components/chat
+  - components/ui
+  - lib/stores
+  - types/
+  - utils/
+
+### Component Architecture
+- Implement AI chat features using LangChain and Ollama
+- Use React Hook Form with Zod for form validation
+- Build responsive layouts with react-resizable-panels
+- Implement animations using Framer Motion
+- Use proper error boundaries and loading states
+
+### UI Components & Styling
+- Utilize Radix UI primitives:
+  - Dialog
+  - Dropdown Menu
+  - Avatar
+  - Popover
+  - Scroll Area
+  - Select
+  - Tooltip
+- Implement consistent theming with next-themes
+- Use Tailwind CSS for responsive design
+- Follow mobile-first approach
+- Implement proper dark/light mode support
+
+### State Management & Data Flow
+- Use Zustand for global state management
+- Implement proper file upload with react-dropzone
+- Handle chat history with local storage
+- Use UUID for unique identifiers
+- Implement toast notifications with sonner
+
+### AI Integration
+- Implement streaming responses with AI SDK
+- Handle speech recognition features
+- Support code syntax highlighting
+- Enable markdown rendering
+- Support emoji selection with emoji-mart
+
+### Performance Optimization
+- Use Sharp for image optimization
+- Implement proper code splitting
+- Optimize bundle size with dynamic imports
+- Use React Server Components where possible
+- Implement proper caching strategies
+
+### Error Handling & Validation
+- Implement proper error boundaries
+- Use Zod for schema validation
+- Handle edge cases in AI responses
+- Implement proper loading states
+- Use toast notifications for errors
+
+### Development Guidelines
+- Follow ESLint rules (eslint-config-next)
+- Use proper TypeScript types
+- Implement JSDoc comments for complex functions
+- Follow accessibility best practices
+- Use proper Git commit conventions
+
+### Features to Support
+- Voice input capabilities
+- Code syntax highlighting
+- Image input for vision models
+- Response regeneration
+- Chat import/export functionality
+- Local storage for chat history
+- Theme switching
+- Model switching
+    
